@@ -3,14 +3,14 @@
 
 terraform {
 
-/* cloud {
+ cloud {
     organization = "camooc"
 
     workspaces {
       name = "learn-terraform"
     }
   }
-*/
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
